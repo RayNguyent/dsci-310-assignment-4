@@ -37,7 +37,7 @@ The R programming language (R Core Team, 2019) and the following R packages were
 
 # Results
 
-```{r figure-1, fig.cap="Horse populations for all provinces in Canada from 1906 - 1972"}
+```{r figure-1, fig.cap="Horse populations for all provinces in Canada from 1906 - 1972", out.height= "120%"}
 knitr::include_graphics("../../results/horse_pops_plot.png")
 ```
 
@@ -58,7 +58,7 @@ $$s = sqrt( sum_{i = 1}^n(x_i - \bar{x}) / (n-1))$$
 
 Additionally, note that in Table \@ref(tab:table-1) we consider the sample standard deviation of the number of horses during the same time span as Figure1.
 
-```{r figure-2,fig.cap="Horse populations for the province with the largest standard deviation"}
+```{r figure-2,fig.cap="Horse populations for the province with the largest standard deviation", out.width= "70%"}
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
 ```
 
